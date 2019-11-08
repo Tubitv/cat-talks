@@ -45,7 +45,8 @@
 class GenresFilter extends BaseFilter("genre") {
   override def predicate: (RichContext, AdCandidate) => Boolean = {
     case (context: BaseRequestContext, ad: AdCandidate) =>
-      if (ad.targeting.genreBlacklist.nonEmpty) {        !ad.targeting.genreBlacklist.exists(context.content.genres.contains)
+      if (ad.targeting.genreBlacklist.nonEmpty) {
+        !ad.targeting.genreBlacklist.exists(context.content.genres.contains)
       } else if (ad.targeting.genre.nonEmpty) {
         ad.targeting.genre.exists(context.content.genres.contains)
       } else {
