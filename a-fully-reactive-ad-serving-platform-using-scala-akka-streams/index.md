@@ -66,7 +66,7 @@ class GenresFilter extends BaseFilter("genre") {
 
 ---
 
-- <a href="#">[0]</a> 原文[A fully reactive ad serving platform using Scala & Akka-Streams](https://code.tubitv.com/a-fully-reactive-ad-serving-platform-using-scala-akka-streams-13299e7ea04e)
+- <a href="#">[0]</a> 原文 [A fully reactive ad serving platform using Scala & Akka-Streams](https://code.tubitv.com/a-fully-reactive-ad-serving-platform-using-scala-akka-streams-13299e7ea04e)
 - <a href="#" id="1">[1]</a> Facebook CEO 马克·扎克伯格 (Mark Zuckerberg) 在 2018 年在出席美国参议院和众议院的听证会时，回答质询的时候，回答 Facebook 免费提供服务怎么赚钱的时候的[原话](https://youtu.be/n2H8wx1aBiQ?t=37)：“Senator, we run ads!”。  
 
 
